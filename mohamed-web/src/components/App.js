@@ -1,6 +1,13 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Header from "./Header/Header";
+
 function App() {
-  return <h1>Hello world Brooo!</h1>;
+  return (
+    <div className="App">
+      <Header />
+    </div>
+  );
 }
 
 export default App;
