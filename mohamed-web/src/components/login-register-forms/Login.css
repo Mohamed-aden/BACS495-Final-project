@@ -1,0 +1,15 @@
+.login {
+  width: 40rem;
+  margin: 100px auto;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  border: 1px solid black;
+}
+
+.login > input {
+  padding: 10px;
+}
