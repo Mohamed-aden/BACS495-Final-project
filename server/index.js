@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({limit: "30mb", extended: true}))
 
 
 //Connection to mongoDB url
-const CONNECTION_URL = "mongodb+srv://mo-app:Hoyomacan01@cluster0.5e5ea.mongodb.net/Mo-appDB"
+const CONNECTION_URL = "mongodb+srv://mo-app:<QSFsS1WfwFhk8r7v>@cluster0.5e5ea.mongodb.net/Mo-appDB?retryWrites=true&w=majority"
 
 const PORT = process.env.PORT || 8080;
 
