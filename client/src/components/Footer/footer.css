@@ -1,0 +1,12 @@
+.container {
+    background-color: #1c7ed6;
+
+    text-align: center; 
+    margin-top: 20vh;
+    border-radius: 12px;
+    color: #fff;
+}
+
+.container .logo {
+    padding: 2px;
+}

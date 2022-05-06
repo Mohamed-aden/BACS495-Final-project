@@ -8,6 +8,7 @@ import Posts from "./components/Posts/Posts";
 import Form from "./components/Form/Form";
 // import useStyles from "./styles";
 import Navbar from "./components/Header/Navbar";
+import Footer from "./components/Footer/Footer";
 
 function App() {
 
@@ -19,7 +20,7 @@ function App() {
 
 
   return (
-   <Container maxWidth="lg">
+   <Container className = "appContainer" maxWidth="lg">
      <Navbar/>
      <Grow in>
        <Container>
@@ -33,8 +34,8 @@ function App() {
 
          </Grid>
        </Container>
-     </Grow>
-
+      </Grow>
+      <Footer />
    </Container>
   );
 }
