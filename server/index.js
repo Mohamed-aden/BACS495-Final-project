@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({limit: "30mb", extended: true}))
 
 
 //Connection to mongoDB url
-const CONNECTION_URL = "mongodb+srv://mo-app:<QSFsS1WfwFhk8r7v>@cluster0.5e5ea.mongodb.net/Mo-appDB?retryWrites=true&w=majority"
+const CONNECTION_URL = "mongodb+srv://mo-app:cKRSQ10Bk96wGP1D@cluster0.5e5ea.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
 const PORT = process.env.PORT || 8080;
 
@@ -25,6 +25,6 @@ mongoose.connect(CONNECTION_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
-    .then(() => console.log("MongoDB Connected !!"))
+    .then(() => app.listen(PORT, () => console.log("MongoDB Connected !!")))
     .catch((err) => console.log(err.message));
 
